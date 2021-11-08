@@ -49,8 +49,8 @@ CREATE TABLE aviso (
 
 CREATE TABLE medida (
 	id INT PRIMARY KEY AUTO_INCREMENT,
-	temperatura DECIMAL,
-	umidade DECIMAL,
+	temperatura DECIMAL(10,2),
+	umidade DECIMAL(10,2),
 	momento DATETIME,
 	fk_aquario INT
 );
